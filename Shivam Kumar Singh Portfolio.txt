@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivam Kumar Singh - Network Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('https://wallpaperaccess.com/full/5531743.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #c9d1d9;
+            text-align: center;
+        }
+        header {
+            background: rgba(10, 25, 47, 0.9);
+            color: white;
+            padding: 100px 20px;
+            text-shadow: 2px 2px 10px rgba(0, 255, 255, 0.5);
+        }
+        .btn {
+            display: inline-block;
+            margin: 15px;
+            padding: 14px 28px;
+            background: #00bcd4;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background: #008ba3;
+        }
+        section {
+            padding: 40px;
+            margin: 20px auto;
+            background: rgba(22, 27, 34, 0.95);
+            max-width: 900px;
+            border-radius: 12px;
+            box-shadow: 0px 0px 20px rgba(0, 255, 255, 0.1);
+        }
+        h2 {
+            color: #58a6ff;
+            font-size: 28px;
+        }
+        a {
+            color: #58a6ff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .image-container {
+            text-align: center;
+            margin: 30px 0;
+        }
+        .image-container img {
+            width: 100%;
+            max-width: 700px;
+            border-radius: 12px;
+            box-shadow: 0px 0px 15px rgba(0, 255, 255, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Shivam Kumar Singh</h1>
+        <p>Network Engineer L2 | NTP | ISIS | MPLS | WAN | Router | Switch</p>
+        <a href="#contact" class="btn">Contact Me</a>
+        <a href="https://drive.google.com/file/d/189-kSMvyWzNU2QL4LRBPnxwfY4SbCyP9/view?usp=sharing" class="btn" target="_blank">Download Resume</a>
+    </header>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Experienced Network Engineer with expertise in configuring network hardware, troubleshooting, and network security. Passionate about learning new technologies and optimizing network performance.</p>
+        <div class="image-container">
+            <img src="https://wallpaperaccess.com/full/12481441.jpg" alt="Network Infrastructure">
+        </div>
+    </section>
+    
+    <section id="experience">
+        <h2>Experience</h2>
+        <h3>HTIS Telecom - Network Engineer L2 (Nov 2024 - Present)</h3>
+        <ul>
+            <li>Responsible for Allocation to Handover of Network Devices.</li>
+            <li>Leading execution of protocol-level changes.</li>
+        </ul>
+        <h3>Aerial Telecom Solution Pvt Ltd - L2 Engineer (Aug 2023 - Oct 2024)</h3>
+        <ul>
+            <li>Configured network hardware and software.</li>
+            <li>Router migration, integration of new devices, network security implementation.</li>
+        </ul>
+        <div class="image-container">
+            <img src="https://wallpaperaccess.com/full/5374040.jpg" alt="Router Configuration">
+        </div>
+    </section>
+    
+    <section id="education">
+        <h2>Education</h2>
+        <p>MCA - Birla Institute of Technology, Mesra (2022) - 8.39 CGPA</p>
+        <p>BCA - Birla Institute of Technology, Mesra (2020) - 6.34 CGPA</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:singhshivamkumar750@gmail.com">singhshivamkumar750@gmail.com</a></p>
+        <p>Phone: <a href="tel:+918340475410">+91 8340475410</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/shivam-kumar-singh-65233914b" target="_blank">Shivam Kumar Singh</a></p>
+    </section>
+</body>
+</html>
